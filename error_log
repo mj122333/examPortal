@@ -1,0 +1,632 @@
+[21-Feb-2025 08:33:34 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for ourownserver.com failed: Name or service not known in /home/tsckeu/public_html/examPortal/index.php on line 9
+[21-Feb-2025 08:33:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for ourownserver.com failed: Name or service not known in /home/tsckeu/public_html/examPortal/index.php:9
+Stack trace:
+#0 /home/tsckeu/public_html/examPortal/index.php(9): mysqli_connect('ourownserver.co...', 'examportalsql', '1dBL$oV+e?RD', 'zavrsni2024')
+#1 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 9
+[21-Feb-2025 08:33:34 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for ourownserver.com failed: Name or service not known in /home/tsckeu/public_html/examPortal/index.php on line 9
+[21-Feb-2025 08:33:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for ourownserver.com failed: Name or service not known in /home/tsckeu/public_html/examPortal/index.php:9
+Stack trace:
+#0 /home/tsckeu/public_html/examPortal/index.php(9): mysqli_connect('ourownserver.co...', 'examportalsql', '1dBL$oV+e?RD', 'zavrsni2024')
+#1 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 9
+[21-Feb-2025 08:33:35 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for ourownserver.com failed: Name or service not known in /home/tsckeu/public_html/examPortal/index.php on line 9
+[21-Feb-2025 08:33:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for ourownserver.com failed: Name or service not known in /home/tsckeu/public_html/examPortal/index.php:9
+Stack trace:
+#0 /home/tsckeu/public_html/examPortal/index.php(9): mysqli_connect('ourownserver.co...', 'examportalsql', '1dBL$oV+e?RD', 'zavrsni2024')
+#1 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 9
+[21-Feb-2025 08:34:57 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for ourownserver.com failed: Name or service not known in /home/tsckeu/public_html/examPortal/index.php on line 9
+[21-Feb-2025 08:34:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for ourownserver.com failed: Name or service not known in /home/tsckeu/public_html/examPortal/index.php:9
+Stack trace:
+#0 /home/tsckeu/public_html/examPortal/index.php(9): mysqli_connect('ourownserver.co...', 'examportalsql', '1dBL$oV+e?RD', 'zavrsni2024')
+#1 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 9
+[21-Feb-2025 08:35:03 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home/tsckeu/public_html/examPortal/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 1
+[21-Feb-2025 08:47:48 UTC] PHP Warning:  include(db_connection.php): Failed to open stream: No such file or directory in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 08:47:48 UTC] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 08:47:48 UTC] PHP Warning:  Undefined variable $conn in /home/tsckeu/public_html/examPortal/index.php on line 47
+[21-Feb-2025 08:47:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 47
+[21-Feb-2025 08:49:33 UTC] PHP Warning:  include(db_connection.php): Failed to open stream: No such file or directory in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 08:49:33 UTC] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 08:49:33 UTC] PHP Warning:  Undefined variable $conn in /home/tsckeu/public_html/examPortal/index.php on line 47
+[21-Feb-2025 08:49:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 47
+[21-Feb-2025 08:49:38 UTC] PHP Warning:  include(db_connection.php): Failed to open stream: No such file or directory in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 08:49:38 UTC] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 08:49:38 UTC] PHP Warning:  Undefined variable $conn in /home/tsckeu/public_html/examPortal/index.php on line 47
+[21-Feb-2025 08:49:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 47
+[21-Feb-2025 09:02:37 UTC] PHP Warning:  include(db_connection.php): Failed to open stream: No such file or directory in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 09:02:37 UTC] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 09:02:37 UTC] PHP Warning:  Undefined variable $conn in /home/tsckeu/public_html/examPortal/index.php on line 47
+[21-Feb-2025 09:02:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 47
+[21-Feb-2025 09:02:43 UTC] PHP Warning:  include(db_connection.php): Failed to open stream: No such file or directory in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 09:02:43 UTC] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 09:02:43 UTC] PHP Warning:  Undefined variable $conn in /home/tsckeu/public_html/examPortal/index.php on line 47
+[21-Feb-2025 09:02:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 47
+[24-Feb-2025 16:35:41 UTC] PHP Warning:  include(db_connection.php): Failed to open stream: No such file or directory in /home/tsckeu/public_html/examPortal/index.php on line 40
+[24-Feb-2025 16:35:41 UTC] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsckeu/public_html/examPortal/index.php on line 40
+[24-Feb-2025 16:35:41 UTC] PHP Warning:  Undefined variable $conn in /home/tsckeu/public_html/examPortal/index.php on line 47
+[24-Feb-2025 16:35:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 47
+[27-Feb-2025 12:40:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tsckeu/public_html/examPortal/index.php:13
+Stack trace:
+#0 /home/tsckeu/public_html/examPortal/index.php(13): mysqli->__construct('localhost', 'root', '', 'quiz')
+#1 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 13
+[14-Mar-2025 10:53:25 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/login.php on line 24
+[14-Mar-2025 10:53:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/login.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/login.php on line 24
+[14-Mar-2025 10:56:02 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/login.php on line 24
+[14-Mar-2025 10:56:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/login.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/login.php on line 24
+[14-Mar-2025 10:59:32 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/login.php on line 24
+[14-Mar-2025 10:59:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/login.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/login.php on line 24
+[14-Mar-2025 11:00:12 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/login.php on line 24
+[14-Mar-2025 11:00:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/login.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/login.php on line 24
+[14-Mar-2025 11:01:15 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 27
+[14-Mar-2025 11:01:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/odabir_teme.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 27
+[14-Mar-2025 11:01:37 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 27
+[14-Mar-2025 11:01:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/odabir_teme.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 27
+[14-Mar-2025 11:01:55 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 34
+[14-Mar-2025 11:01:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/odabir_teme.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 34
+[14-Mar-2025 11:02:31 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 34
+[14-Mar-2025 11:02:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/odabir_teme.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 34
+[14-Mar-2025 11:02:54 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 34
+[14-Mar-2025 11:02:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/odabir_teme.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 34
+[14-Mar-2025 11:04:59 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/index.php on line 30
+[14-Mar-2025 11:04:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/index.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 30
+[14-Mar-2025 11:18:13 UTC] PHP Warning:  Undefined variable $historySql in /home/tsckeu/public_html/examPortal/forms.php on line 532
+[14-Mar-2025 11:18:13 UTC] PHP Deprecated:  PDO::prepare(): Passing null to parameter #1 ($query) of type string is deprecated in /home/tsckeu/public_html/examPortal/forms.php on line 532
+[14-Mar-2025 11:18:13 UTC] PHP Fatal error:  Uncaught ValueError: PDO::prepare(): Argument #1 ($query) cannot be empty in /home/tsckeu/public_html/examPortal/forms.php:532
+Stack trace:
+#0 /home/tsckeu/public_html/examPortal/forms.php(532): PDO->prepare('')
+#1 {main}
+  thrown in /home/tsckeu/public_html/examPortal/forms.php on line 532
+[14-Mar-2025 11:18:55 UTC] PHP Warning:  Undefined variable $userId in /home/tsckeu/public_html/examPortal/forms.php on line 541
+[14-Mar-2025 11:18:55 UTC] PHP Warning:  Undefined variable $exam in /home/tsckeu/public_html/examPortal/forms.php on line 544
+[14-Mar-2025 11:18:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/examPortal/forms.php on line 544
+[14-Mar-2025 11:18:55 UTC] PHP Warning:  Undefined array key "trajanje" in /home/tsckeu/public_html/examPortal/forms.php on line 547
+[14-Mar-2025 11:20:06 UTC] PHP Warning:  Undefined variable $userId in /home/tsckeu/public_html/examPortal/forms.php on line 541
+[14-Mar-2025 11:21:02 UTC] PHP Warning:  Undefined variable $userId in /home/tsckeu/public_html/examPortal/forms.php on line 541
+[14-Mar-2025 11:21:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/tsckeu/public_html/examPortal/forms.php:545
+Stack trace:
+#0 /home/tsckeu/public_html/examPortal/forms.php(545): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/tsckeu/public_html/examPortal/forms.php on line 545
+[14-Mar-2025 11:22:25 UTC] PHP Warning:  Undefined variable $examHistory in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:22:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:23:03 UTC] PHP Warning:  Undefined variable $examHistory in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:23:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:23:03 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:26:05 UTC] PHP Warning:  Undefined variable $examHistory in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:26:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:26:05 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:26:46 UTC] PHP Warning:  Undefined variable $examHistory in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:26:46 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:26:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:27:33 UTC] PHP Warning:  Undefined variable $examHistory in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:27:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:27:33 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[18-Mar-2025 17:23:03 UTC] Greška pri pohranjivanju odjave u bazu: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zavrsni2024.user_logout_log' doesn't exist
+[19-Mar-2025 06:46:35 UTC] Greška pri pohranjivanju odjave u bazu: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zavrsni2024.user_logout_log' doesn't exist
+[25-Mar-2025 16:53:03 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:414
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 414
+[25-Mar-2025 16:53:37 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:414
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 414
+[25-Mar-2025 16:53:40 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:414
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 414
+[25-Mar-2025 16:53:51 UTC] Pokušaj prijave za korisnika: Profesor
+[25-Mar-2025 16:53:51 UTC] Unesena lozinka: profesor123
+[25-Mar-2025 16:53:51 UTC] Pohranjena lozinka u bazi: $2y$10$h6mQ99.7Yx2pC3N2XDOvlOhSh
+[25-Mar-2025 16:53:51 UTC] Hitno rješenje: Administratorska prijava
+[25-Mar-2025 16:53:51 UTC] Uspješna prijava za korisnika: Profesor
+[25-Mar-2025 16:53:53 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:414
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 414
+[25-Mar-2025 16:54:00 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:414
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 414
+[25-Mar-2025 16:54:01 UTC] PHP Warning:  Undefined variable $testId in /home/tsckeu/public_html/examPortal/forms.php on line 434
+[25-Mar-2025 16:54:19 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:414
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 414
+[25-Mar-2025 16:54:24 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:414
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 414
+[25-Mar-2025 16:54:28 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:414
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 414
+[25-Mar-2025 16:54:33 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:414
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 414
+[25-Mar-2025 16:54:44 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:414
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 414
+[25-Mar-2025 16:54:46 UTC] PHP Warning:  Undefined variable $testId in /home/tsckeu/public_html/examPortal/forms.php on line 434
+[25-Mar-2025 16:54:51 UTC] PHP Warning:  Undefined variable $testId in /home/tsckeu/public_html/examPortal/forms.php on line 434
+[25-Mar-2025 16:54:54 UTC] PHP Warning:  Undefined variable $testId in /home/tsckeu/public_html/examPortal/forms.php on line 434
+[25-Mar-2025 16:55:05 UTC] PHP Warning:  Undefined variable $testId in /home/tsckeu/public_html/examPortal/forms.php on line 434
+[25-Mar-2025 16:55:11 UTC] PHP Warning:  Undefined variable $testId in /home/tsckeu/public_html/examPortal/forms.php on line 434
+[25-Mar-2025 16:55:13 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:414
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 414
+[25-Mar-2025 16:55:20 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:414
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 414
+[25-Mar-2025 16:58:06 UTC] PHP Warning:  Undefined variable $testId in /home/tsckeu/public_html/examPortal/forms.php on line 434
+[01-Apr-2025 10:55:15 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:414
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 414
+[01-Apr-2025 10:57:10 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:414
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 414
+[08-Apr-2025 09:59:44 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[08-Apr-2025 10:05:37 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[10-Apr-2025 11:57:33 UTC] Korisnik s ID guest_67f7a99b2e0e0 ne postoji.
+[10-Apr-2025 11:57:33 UTC] PDO greška: There is no active transaction
+[10-Apr-2025 11:57:33 UTC] Korisnik s ID guest_67f7a99b2e0e0 ne postoji.
+[10-Apr-2025 11:57:33 UTC] PDO greška: There is no active transaction
+[10-Apr-2025 11:57:41 UTC] Korisnik s ID guest_67f7a99b2e0e0 ne postoji.
+[10-Apr-2025 11:57:41 UTC] PDO greška: There is no active transaction
+[10-Apr-2025 11:57:41 UTC] Korisnik s ID guest_67f7a99b2e0e0 ne postoji.
+[10-Apr-2025 11:57:41 UTC] PDO greška: There is no active transaction
+[10-Apr-2025 11:57:47 UTC] Korisnik s ID guest_67f7a99b2e0e0 ne postoji.
+[10-Apr-2025 11:57:47 UTC] PDO greška: There is no active transaction
+[10-Apr-2025 11:57:47 UTC] Korisnik s ID guest_67f7a99b2e0e0 ne postoji.
+[10-Apr-2025 11:57:47 UTC] PDO greška: There is no active transaction
+[15-Apr-2025 06:48:23 UTC] Pokušaj prijave za korisnika: Profesor
+[15-Apr-2025 06:48:23 UTC] Unesena lozinka: profesor123
+[15-Apr-2025 06:48:23 UTC] Pohranjena lozinka u bazi: $2y$10$J/e.EVtYGXUhJGWCTagdSuC62
+[15-Apr-2025 06:48:23 UTC] Hitno rješenje: Administratorska prijava
+[15-Apr-2025 06:48:23 UTC] Uspješna prijava za korisnika: Profesor
+[15-Apr-2025 06:48:48 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[18-Apr-2025 13:12:35 UTC] Korisnik s ID guest_68024fc361378 ne postoji.
+[18-Apr-2025 13:12:35 UTC] PDO greška: There is no active transaction
+[18-Apr-2025 13:12:35 UTC] Korisnik s ID guest_68024fc361378 ne postoji.
+[18-Apr-2025 13:12:35 UTC] PDO greška: There is no active transaction
+[18-Apr-2025 13:13:03 UTC] Korisnik s ID guest_68024fc361378 ne postoji.
+[18-Apr-2025 13:13:03 UTC] PDO greška: There is no active transaction
+[18-Apr-2025 13:13:03 UTC] Korisnik s ID guest_68024fc361378 ne postoji.
+[18-Apr-2025 13:13:03 UTC] PDO greška: There is no active transaction
+[18-Apr-2025 13:13:06 UTC] Korisnik s ID guest_68024fc361378 ne postoji.
+[18-Apr-2025 13:13:06 UTC] PDO greška: There is no active transaction
+[18-Apr-2025 13:13:06 UTC] Korisnik s ID guest_68024fc361378 ne postoji.
+[18-Apr-2025 13:13:06 UTC] PDO greška: There is no active transaction
+[18-Apr-2025 13:14:00 UTC] Neuspješna prijava - korisnik nije pronađen: ' AND 1 = 1;--
+[18-Apr-2025 13:14:05 UTC] Neuspješna prijava - korisnik nije pronađen: admin
+[18-Apr-2025 13:14:08 UTC] Neuspješna prijava - korisnik nije pronađen: admin
+[18-Apr-2025 13:14:16 UTC] Neuspješna prijava - korisnik nije pronađen: admin
+[19-Apr-2025 11:59:20 UTC] Korisnik s ID guest_68039018464b8 ne postoji.
+[19-Apr-2025 11:59:20 UTC] PDO greška: There is no active transaction
+[19-Apr-2025 11:59:20 UTC] Korisnik s ID guest_68039018464b8 ne postoji.
+[19-Apr-2025 11:59:20 UTC] PDO greška: There is no active transaction
+[19-Apr-2025 11:59:29 UTC] Korisnik s ID guest_68039018464b8 ne postoji.
+[19-Apr-2025 11:59:29 UTC] PDO greška: There is no active transaction
+[19-Apr-2025 11:59:29 UTC] Korisnik s ID guest_68039018464b8 ne postoji.
+[19-Apr-2025 11:59:29 UTC] PDO greška: There is no active transaction
+[22-Apr-2025 10:36:50 UTC] Pokušaj prijave za korisnika: Profesor
+[22-Apr-2025 10:36:50 UTC] Unesena lozinka: profesor
+[22-Apr-2025 10:36:50 UTC] Pohranjena lozinka u bazi: $2y$10$d9VZDRUrRxKmDWvZSwu0oe3YR
+[22-Apr-2025 10:36:50 UTC] Hitno rješenje: Administratorska prijava
+[22-Apr-2025 10:36:50 UTC] Uspješna prijava za korisnika: Profesor
+[22-Apr-2025 10:37:06 UTC] Pokušaj prijave za korisnika: Profesor
+[22-Apr-2025 10:37:06 UTC] Unesena lozinka: profesor
+[22-Apr-2025 10:37:06 UTC] Pohranjena lozinka u bazi: $2y$10$7uUnyYFE/ihzaVBfsUKTUe2qj
+[22-Apr-2025 10:37:06 UTC] Hitno rješenje: Administratorska prijava
+[22-Apr-2025 10:37:06 UTC] Uspješna prijava za korisnika: Profesor
+[22-Apr-2025 10:37:20 UTC] Korisnik s ID guest_6807715fef8eb ne postoji.
+[22-Apr-2025 10:37:20 UTC] PDO greška: There is no active transaction
+[22-Apr-2025 10:37:20 UTC] Korisnik s ID guest_6807715fef8eb ne postoji.
+[22-Apr-2025 10:37:20 UTC] PDO greška: There is no active transaction
+[22-Apr-2025 10:37:28 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[22-Apr-2025 10:38:13 UTC] Korisnik s ID guest_6807715fef8eb ne postoji.
+[22-Apr-2025 10:38:13 UTC] PDO greška: There is no active transaction
+[22-Apr-2025 10:38:13 UTC] Korisnik s ID guest_6807715fef8eb ne postoji.
+[22-Apr-2025 10:38:13 UTC] PDO greška: There is no active transaction
+[22-Apr-2025 10:38:20 UTC] Greška pri pohranjivanju odjave u bazu: SQLSTATE[23000]: Integrity constraint violation: 1216 Cannot add or update a child row: a foreign key constraint fails
+[22-Apr-2025 10:38:25 UTC] Pokušaj prijave za korisnika: Profesor
+[22-Apr-2025 10:38:25 UTC] Unesena lozinka: profesor
+[22-Apr-2025 10:38:25 UTC] Pohranjena lozinka u bazi: $2y$10$C0LOCenPPExYetIAQVaLVe45s
+[22-Apr-2025 10:38:25 UTC] Hitno rješenje: Administratorska prijava
+[22-Apr-2025 10:38:25 UTC] Uspješna prijava za korisnika: Profesor
+[22-Apr-2025 10:38:47 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[22-Apr-2025 10:39:21 UTC] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/tsckeu/public_html/examPortal/upravljaj_ucenicima.php on line 746
+[22-Apr-2025 10:39:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'to
+    WHERE to.test_id = '213'
+    ORDER BY to.ID ASC' at line 7 in /home/tsckeu/public_html/examPortal/posalji_mail.php:80
+Stack trace:
+#0 /home/tsckeu/public_html/examPortal/posalji_mail.php(80): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/tsckeu/public_html/examPortal/posalji_mail.php on line 80
+[22-Apr-2025 10:40:01 UTC] Pokušaj prijave za korisnika: Matej
+[22-Apr-2025 10:40:01 UTC] Unesena lozinka: mleko
+[22-Apr-2025 10:40:01 UTC] Pohranjena lozinka u bazi: ec7e98122f8cac1462888036dcf32100
+[22-Apr-2025 10:40:01 UTC] Lozinka verificirana s MD5
+[22-Apr-2025 10:40:01 UTC] Uspješna prijava za korisnika: Matej
+[22-Apr-2025 10:40:01 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[22-Apr-2025 10:40:40 UTC] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/tsckeu/public_html/examPortal/upravljaj_ucenicima.php on line 746
+[22-Apr-2025 10:40:53 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[22-Apr-2025 10:41:14 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[22-Apr-2025 10:41:17 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[22-Apr-2025 10:41:18 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[23-Apr-2025 13:26:07 UTC] Korisnik s ID guest_6808ea6f1e916 ne postoji.
+[23-Apr-2025 13:26:07 UTC] PDO greška: There is no active transaction
+[23-Apr-2025 13:26:07 UTC] Korisnik s ID guest_6808ea6f1e916 ne postoji.
+[23-Apr-2025 13:26:07 UTC] PDO greška: There is no active transaction
+[23-Apr-2025 13:26:13 UTC] Greška pri pohranjivanju odjave u bazu: SQLSTATE[23000]: Integrity constraint violation: 1216 Cannot add or update a child row: a foreign key constraint fails
+[23-Apr-2025 13:26:20 UTC] Pokušaj prijave za korisnika: Profesor
+[23-Apr-2025 13:26:20 UTC] Unesena lozinka: profesor123
+[23-Apr-2025 13:26:20 UTC] Pohranjena lozinka u bazi: $2y$10$M3L.LYNS.2xzkeiDieMIO.u97
+[23-Apr-2025 13:26:20 UTC] Hitno rješenje: Administratorska prijava
+[23-Apr-2025 13:26:20 UTC] Uspješna prijava za korisnika: Profesor
+[23-Apr-2025 13:32:11 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[23-Apr-2025 13:33:58 UTC] Korisnik s ID guest_6808ec46547ca ne postoji.
+[23-Apr-2025 13:33:58 UTC] PDO greška: There is no active transaction
+[23-Apr-2025 13:33:58 UTC] Korisnik s ID guest_6808ec46547ca ne postoji.
+[23-Apr-2025 13:33:58 UTC] PDO greška: There is no active transaction
+[23-Apr-2025 13:34:33 UTC] Korisnik s ID guest_6808ec46547ca ne postoji.
+[23-Apr-2025 13:34:33 UTC] PDO greška: There is no active transaction
+[23-Apr-2025 13:34:33 UTC] Korisnik s ID guest_6808ec46547ca ne postoji.
+[23-Apr-2025 13:34:33 UTC] PDO greška: There is no active transaction
+[23-Apr-2025 13:35:44 UTC] Korisnik s ID guest_6808ec46547ca ne postoji.
+[23-Apr-2025 13:35:44 UTC] PDO greška: There is no active transaction
+[23-Apr-2025 13:35:44 UTC] Korisnik s ID guest_6808ec46547ca ne postoji.
+[23-Apr-2025 13:35:44 UTC] PDO greška: There is no active transaction
+[23-Apr-2025 13:36:52 UTC] Korisnik s ID guest_6808ec46547ca ne postoji.
+[23-Apr-2025 13:36:52 UTC] PDO greška: There is no active transaction
+[23-Apr-2025 13:36:52 UTC] Korisnik s ID guest_6808ec46547ca ne postoji.
+[23-Apr-2025 13:36:52 UTC] PDO greška: There is no active transaction
+[23-Apr-2025 13:36:53 UTC] Greška pri pohranjivanju odjave u bazu: SQLSTATE[23000]: Integrity constraint violation: 1216 Cannot add or update a child row: a foreign key constraint fails
+[23-Apr-2025 13:37:08 UTC] Pokušaj prijave za korisnika: Profesor
+[23-Apr-2025 13:37:08 UTC] Unesena lozinka: profesor123
+[23-Apr-2025 13:37:08 UTC] Pohranjena lozinka u bazi: $2y$10$a4yWxlZHsfd.tS30jc26ne4yr
+[23-Apr-2025 13:37:08 UTC] Hitno rješenje: Administratorska prijava
+[23-Apr-2025 13:37:08 UTC] Uspješna prijava za korisnika: Profesor
+[23-Apr-2025 13:37:31 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[23-Apr-2025 13:37:58 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[23-Apr-2025 13:38:03 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[23-Apr-2025 21:48:07 UTC] Korisnik s ID guest_68096017cc9ec ne postoji.
+[23-Apr-2025 21:48:07 UTC] PDO greška: There is no active transaction
+[23-Apr-2025 21:48:07 UTC] Korisnik s ID guest_68096017cc9ec ne postoji.
+[23-Apr-2025 21:48:07 UTC] PDO greška: There is no active transaction
+[23-Apr-2025 21:52:58 UTC] Pokušaj prijave za korisnika: Profesor
+[23-Apr-2025 21:52:58 UTC] Unesena lozinka: profesor123
+[23-Apr-2025 21:52:58 UTC] Pohranjena lozinka u bazi: $2y$10$tw7XpgIvp4MqgLBth7MQ0OCfb
+[23-Apr-2025 21:52:58 UTC] Hitno rješenje: Administratorska prijava
+[23-Apr-2025 21:52:58 UTC] Uspješna prijava za korisnika: Profesor
+[24-Apr-2025 07:05:29 UTC] Korisnik s ID guest_6809e2b913f74 ne postoji.
+[24-Apr-2025 07:05:29 UTC] PDO greška: There is no active transaction
+[24-Apr-2025 07:05:29 UTC] Korisnik s ID guest_6809e2b913f74 ne postoji.
+[24-Apr-2025 07:05:29 UTC] PDO greška: There is no active transaction
+[25-Apr-2025 05:28:26 UTC] Neuspješna prijava - korisnik nije pronađen: admin
+[25-Apr-2025 05:28:39 UTC] Pokušaj prijave za korisnika: Profesor
+[25-Apr-2025 05:28:39 UTC] Unesena lozinka: Profersor123
+[25-Apr-2025 05:28:39 UTC] Pohranjena lozinka u bazi: $2y$10$8fGLlsnvMDlQbcTMTPdbvOexv
+[25-Apr-2025 05:28:39 UTC] Hitno rješenje: Administratorska prijava
+[25-Apr-2025 05:28:39 UTC] Uspješna prijava za korisnika: Profesor
+[25-Apr-2025 07:36:26 UTC] Neuspješna prijava - korisnik nije pronađen: admin
+[25-Apr-2025 07:36:34 UTC] Pokušaj prijave za korisnika: Profesor
+[25-Apr-2025 07:36:34 UTC] Unesena lozinka: profesor123
+[25-Apr-2025 07:36:34 UTC] Pohranjena lozinka u bazi: $2y$10$B10QQZiFixnE3SQo0hAJo.5BL
+[25-Apr-2025 07:36:34 UTC] Hitno rješenje: Administratorska prijava
+[25-Apr-2025 07:36:34 UTC] Uspješna prijava za korisnika: Profesor
+[25-Apr-2025 07:39:40 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[25-Apr-2025 07:41:43 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[25-Apr-2025 07:43:32 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[25-Apr-2025 07:44:06 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[25-Apr-2025 07:54:24 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[25-Apr-2025 07:54:28 UTC] Korisnik s ID guest_680b3fb4345c1 ne postoji.
+[25-Apr-2025 07:54:28 UTC] PDO greška: There is no active transaction
+[25-Apr-2025 07:54:28 UTC] Korisnik s ID guest_680b3fb4345c1 ne postoji.
+[25-Apr-2025 07:54:28 UTC] PDO greška: There is no active transaction
+[25-Apr-2025 07:54:40 UTC] Korisnik s ID guest_680b3fb4345c1 ne postoji.
+[25-Apr-2025 07:54:40 UTC] PDO greška: There is no active transaction
+[25-Apr-2025 07:54:40 UTC] Korisnik s ID guest_680b3fb4345c1 ne postoji.
+[25-Apr-2025 07:54:40 UTC] PDO greška: There is no active transaction
+[25-Apr-2025 07:55:27 UTC] Korisnik s ID guest_680b3fb4345c1 ne postoji.
+[25-Apr-2025 07:55:27 UTC] PDO greška: There is no active transaction
+[25-Apr-2025 07:55:27 UTC] Korisnik s ID guest_680b3fb4345c1 ne postoji.
+[25-Apr-2025 07:55:27 UTC] PDO greška: There is no active transaction
+[25-Apr-2025 08:26:21 UTC] Korisnik s ID guest_680b472dacc42 ne postoji.
+[25-Apr-2025 08:26:21 UTC] PDO greška: There is no active transaction
+[25-Apr-2025 08:26:21 UTC] Korisnik s ID guest_680b472dacc42 ne postoji.
+[25-Apr-2025 08:26:21 UTC] PDO greška: There is no active transaction
+[25-Apr-2025 08:26:30 UTC] Greška pri pohranjivanju odjave u bazu: SQLSTATE[23000]: Integrity constraint violation: 1216 Cannot add or update a child row: a foreign key constraint fails
+[25-Apr-2025 08:26:44 UTC] Pokušaj prijave za korisnika: Profesor
+[25-Apr-2025 08:26:44 UTC] Unesena lozinka: profesro123
+[25-Apr-2025 08:26:44 UTC] Pohranjena lozinka u bazi: $2y$10$c1QNWLqyFHT4u6nYpzA5BOG5F
+[25-Apr-2025 08:26:44 UTC] Hitno rješenje: Administratorska prijava
+[25-Apr-2025 08:26:44 UTC] Uspješna prijava za korisnika: Profesor
+[27-Apr-2025 12:34:04 UTC] Korisnik s ID guest_680e243c726b9 ne postoji.
+[27-Apr-2025 12:34:04 UTC] PDO greška: There is no active transaction
+[27-Apr-2025 12:34:04 UTC] Korisnik s ID guest_680e243c726b9 ne postoji.
+[27-Apr-2025 12:34:04 UTC] PDO greška: There is no active transaction
+[28-Apr-2025 08:21:35 UTC] Pokušaj prijave za korisnika: Profesor
+[28-Apr-2025 08:21:35 UTC] Unesena lozinka: profesor123
+[28-Apr-2025 08:21:35 UTC] Pohranjena lozinka u bazi: $2y$10$qUOE7/jRUzaF.eTqsG7EzOqbc
+[28-Apr-2025 08:21:35 UTC] Hitno rješenje: Administratorska prijava
+[28-Apr-2025 08:21:35 UTC] Uspješna prijava za korisnika: Profesor
+[28-Apr-2025 08:21:58 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[28-Apr-2025 08:22:29 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[28-Apr-2025 08:23:42 UTC] Pokušaj prijave za korisnika: Profesor
+[28-Apr-2025 08:23:42 UTC] Unesena lozinka: profesor123
+[28-Apr-2025 08:23:42 UTC] Pohranjena lozinka u bazi: $2y$10$udh6pzsF7KNKtm.5egBN3.FHr
+[28-Apr-2025 08:23:42 UTC] Hitno rješenje: Administratorska prijava
+[28-Apr-2025 08:23:42 UTC] Uspješna prijava za korisnika: Profesor
+[29-Apr-2025 10:04:10 UTC] Pokušaj prijave za korisnika: Profesor
+[29-Apr-2025 10:04:10 UTC] Unesena lozinka: profesor123
+[29-Apr-2025 10:04:10 UTC] Pohranjena lozinka u bazi: $2y$10$c/tLs/Min1Fh1K9CiPeM7uCSf
+[29-Apr-2025 10:04:10 UTC] Hitno rješenje: Administratorska prijava
+[29-Apr-2025 10:04:10 UTC] Uspješna prijava za korisnika: Profesor
+[29-Apr-2025 10:12:31 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 563
+[06-May-2025 10:02:52 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 10:03:35 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 10:08:47 UTC] Pokušaj prijave za korisnika: Profesor
+[06-May-2025 10:08:47 UTC] Unesena lozinka: profesor123
+[06-May-2025 10:08:47 UTC] Pohranjena lozinka u bazi: $2y$10$47pn9NQWfNpb03v6HQEfpexsB
+[06-May-2025 10:08:47 UTC] Hitno rješenje: Administratorska prijava
+[06-May-2025 10:08:47 UTC] Uspješna prijava za korisnika: Profesor
+[06-May-2025 10:09:01 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 10:09:08 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 10:17:32 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 10:21:08 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 10:28:18 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 10:38:26 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 10:38:51 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 10:44:21 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 10:44:29 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 10:48:24 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 10:48:30 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 10:50:58 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 10:53:54 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 10:55:25 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 10:57:24 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 10:59:27 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 10:59:39 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 14:16:07 UTC] Pokušaj prijave za korisnika: Profesor
+[06-May-2025 14:16:07 UTC] Unesena lozinka: profesor123
+[06-May-2025 14:16:07 UTC] Pohranjena lozinka u bazi: $2y$10$1PHyQjMuCICLppQKaIckoeK89
+[06-May-2025 14:16:07 UTC] Hitno rješenje: Administratorska prijava
+[06-May-2025 14:16:07 UTC] Uspješna prijava za korisnika: Profesor
+[06-May-2025 14:16:15 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 14:17:37 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/tsckeu/public_html/examPortal/odabir_teme.php:565
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 565
+[06-May-2025 16:03:25 UTC] Korisnik s ID guest_681a32cd14dfa ne postoji.
+[06-May-2025 16:03:25 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:03:25 UTC] Korisnik s ID guest_681a32cd14dfa ne postoji.
+[06-May-2025 16:03:25 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:03:31 UTC] Korisnik s ID guest_681a32cd14dfa ne postoji.
+[06-May-2025 16:03:31 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:03:31 UTC] Korisnik s ID guest_681a32cd14dfa ne postoji.
+[06-May-2025 16:03:31 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:03:38 UTC] Korisnik s ID guest_681a32cd14dfa ne postoji.
+[06-May-2025 16:03:38 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:03:38 UTC] Korisnik s ID guest_681a32cd14dfa ne postoji.
+[06-May-2025 16:03:38 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:03:59 UTC] Korisnik s ID guest_681a32cd14dfa ne postoji.
+[06-May-2025 16:03:59 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:03:59 UTC] Korisnik s ID guest_681a32cd14dfa ne postoji.
+[06-May-2025 16:03:59 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:10:47 UTC] Korisnik s ID guest_681a32cd14dfa ne postoji.
+[06-May-2025 16:10:47 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:10:47 UTC] Korisnik s ID guest_681a32cd14dfa ne postoji.
+[06-May-2025 16:10:47 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:11:06 UTC] Korisnik s ID guest_681a32cd14dfa ne postoji.
+[06-May-2025 16:11:06 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:11:06 UTC] Korisnik s ID guest_681a32cd14dfa ne postoji.
+[06-May-2025 16:11:06 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:11:15 UTC] Korisnik s ID guest_681a32cd14dfa ne postoji.
+[06-May-2025 16:11:15 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:11:15 UTC] Korisnik s ID guest_681a32cd14dfa ne postoji.
+[06-May-2025 16:11:15 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:12:12 UTC] Korisnik s ID guest_681a32cd14dfa ne postoji.
+[06-May-2025 16:12:12 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:12:12 UTC] Korisnik s ID guest_681a32cd14dfa ne postoji.
+[06-May-2025 16:12:12 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:19:34 UTC] Korisnik s ID guest_681a32cd14dfa ne postoji.
+[06-May-2025 16:19:34 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:19:34 UTC] Korisnik s ID guest_681a32cd14dfa ne postoji.
+[06-May-2025 16:19:34 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:19:37 UTC] Greška pri pohranjivanju odjave u bazu: SQLSTATE[23000]: Integrity constraint violation: 1216 Cannot add or update a child row: a foreign key constraint fails
+[06-May-2025 16:19:42 UTC] Pokušaj prijave za korisnika: Profesor
+[06-May-2025 16:19:42 UTC] Unesena lozinka: profesor123
+[06-May-2025 16:19:42 UTC] Pohranjena lozinka u bazi: $2y$10$ERIh5q1M2EM2awSMRSnTgexBH
+[06-May-2025 16:19:42 UTC] Hitno rješenje: Administratorska prijava
+[06-May-2025 16:19:42 UTC] Uspješna prijava za korisnika: Profesor
+[06-May-2025 16:20:00 UTC] Korisnik s ID guest_681a36b071e24 ne postoji.
+[06-May-2025 16:20:00 UTC] PDO greška: There is no active transaction
+[06-May-2025 16:20:00 UTC] Korisnik s ID guest_681a36b071e24 ne postoji.
+[06-May-2025 16:20:00 UTC] PDO greška: There is no active transaction

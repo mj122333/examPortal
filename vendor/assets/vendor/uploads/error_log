@@ -1,0 +1,157 @@
+[21-Feb-2025 08:33:34 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for ourownserver.com failed: Name or service not known in /home/tsckeu/public_html/examPortal/index.php on line 9
+[21-Feb-2025 08:33:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for ourownserver.com failed: Name or service not known in /home/tsckeu/public_html/examPortal/index.php:9
+Stack trace:
+#0 /home/tsckeu/public_html/examPortal/index.php(9): mysqli_connect('ourownserver.co...', 'examportalsql', '1dBL$oV+e?RD', 'zavrsni2024')
+#1 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 9
+[21-Feb-2025 08:33:34 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for ourownserver.com failed: Name or service not known in /home/tsckeu/public_html/examPortal/index.php on line 9
+[21-Feb-2025 08:33:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for ourownserver.com failed: Name or service not known in /home/tsckeu/public_html/examPortal/index.php:9
+Stack trace:
+#0 /home/tsckeu/public_html/examPortal/index.php(9): mysqli_connect('ourownserver.co...', 'examportalsql', '1dBL$oV+e?RD', 'zavrsni2024')
+#1 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 9
+[21-Feb-2025 08:33:35 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for ourownserver.com failed: Name or service not known in /home/tsckeu/public_html/examPortal/index.php on line 9
+[21-Feb-2025 08:33:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for ourownserver.com failed: Name or service not known in /home/tsckeu/public_html/examPortal/index.php:9
+Stack trace:
+#0 /home/tsckeu/public_html/examPortal/index.php(9): mysqli_connect('ourownserver.co...', 'examportalsql', '1dBL$oV+e?RD', 'zavrsni2024')
+#1 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 9
+[21-Feb-2025 08:34:57 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for ourownserver.com failed: Name or service not known in /home/tsckeu/public_html/examPortal/index.php on line 9
+[21-Feb-2025 08:34:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for ourownserver.com failed: Name or service not known in /home/tsckeu/public_html/examPortal/index.php:9
+Stack trace:
+#0 /home/tsckeu/public_html/examPortal/index.php(9): mysqli_connect('ourownserver.co...', 'examportalsql', '1dBL$oV+e?RD', 'zavrsni2024')
+#1 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 9
+[21-Feb-2025 08:35:03 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home/tsckeu/public_html/examPortal/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 1
+[21-Feb-2025 08:47:48 UTC] PHP Warning:  include(db_connection.php): Failed to open stream: No such file or directory in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 08:47:48 UTC] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 08:47:48 UTC] PHP Warning:  Undefined variable $conn in /home/tsckeu/public_html/examPortal/index.php on line 47
+[21-Feb-2025 08:47:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 47
+[21-Feb-2025 08:49:33 UTC] PHP Warning:  include(db_connection.php): Failed to open stream: No such file or directory in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 08:49:33 UTC] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 08:49:33 UTC] PHP Warning:  Undefined variable $conn in /home/tsckeu/public_html/examPortal/index.php on line 47
+[21-Feb-2025 08:49:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 47
+[21-Feb-2025 08:49:38 UTC] PHP Warning:  include(db_connection.php): Failed to open stream: No such file or directory in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 08:49:38 UTC] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 08:49:38 UTC] PHP Warning:  Undefined variable $conn in /home/tsckeu/public_html/examPortal/index.php on line 47
+[21-Feb-2025 08:49:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 47
+[21-Feb-2025 09:02:37 UTC] PHP Warning:  include(db_connection.php): Failed to open stream: No such file or directory in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 09:02:37 UTC] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 09:02:37 UTC] PHP Warning:  Undefined variable $conn in /home/tsckeu/public_html/examPortal/index.php on line 47
+[21-Feb-2025 09:02:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 47
+[21-Feb-2025 09:02:43 UTC] PHP Warning:  include(db_connection.php): Failed to open stream: No such file or directory in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 09:02:43 UTC] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsckeu/public_html/examPortal/index.php on line 40
+[21-Feb-2025 09:02:43 UTC] PHP Warning:  Undefined variable $conn in /home/tsckeu/public_html/examPortal/index.php on line 47
+[21-Feb-2025 09:02:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 47
+[24-Feb-2025 16:35:41 UTC] PHP Warning:  include(db_connection.php): Failed to open stream: No such file or directory in /home/tsckeu/public_html/examPortal/index.php on line 40
+[24-Feb-2025 16:35:41 UTC] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/tsckeu/public_html/examPortal/index.php on line 40
+[24-Feb-2025 16:35:41 UTC] PHP Warning:  Undefined variable $conn in /home/tsckeu/public_html/examPortal/index.php on line 47
+[24-Feb-2025 16:35:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 47
+[27-Feb-2025 12:40:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tsckeu/public_html/examPortal/index.php:13
+Stack trace:
+#0 /home/tsckeu/public_html/examPortal/index.php(13): mysqli->__construct('localhost', 'root', '', 'quiz')
+#1 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 13
+[14-Mar-2025 10:53:25 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/login.php on line 24
+[14-Mar-2025 10:53:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/login.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/login.php on line 24
+[14-Mar-2025 10:56:02 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/login.php on line 24
+[14-Mar-2025 10:56:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/login.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/login.php on line 24
+[14-Mar-2025 10:59:32 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/login.php on line 24
+[14-Mar-2025 10:59:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/login.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/login.php on line 24
+[14-Mar-2025 11:00:12 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/login.php on line 24
+[14-Mar-2025 11:00:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/login.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/login.php on line 24
+[14-Mar-2025 11:01:15 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 27
+[14-Mar-2025 11:01:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/odabir_teme.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 27
+[14-Mar-2025 11:01:37 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 27
+[14-Mar-2025 11:01:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/odabir_teme.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 27
+[14-Mar-2025 11:01:55 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 34
+[14-Mar-2025 11:01:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/odabir_teme.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 34
+[14-Mar-2025 11:02:31 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 34
+[14-Mar-2025 11:02:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/odabir_teme.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 34
+[14-Mar-2025 11:02:54 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 34
+[14-Mar-2025 11:02:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/odabir_teme.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/odabir_teme.php on line 34
+[14-Mar-2025 11:04:59 UTC] PHP Warning:  Undefined variable $pdo in /home/tsckeu/public_html/examPortal/index.php on line 30
+[14-Mar-2025 11:04:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/tsckeu/public_html/examPortal/index.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/tsckeu/public_html/examPortal/index.php on line 30
+[14-Mar-2025 11:18:13 UTC] PHP Warning:  Undefined variable $historySql in /home/tsckeu/public_html/examPortal/forms.php on line 532
+[14-Mar-2025 11:18:13 UTC] PHP Deprecated:  PDO::prepare(): Passing null to parameter #1 ($query) of type string is deprecated in /home/tsckeu/public_html/examPortal/forms.php on line 532
+[14-Mar-2025 11:18:13 UTC] PHP Fatal error:  Uncaught ValueError: PDO::prepare(): Argument #1 ($query) cannot be empty in /home/tsckeu/public_html/examPortal/forms.php:532
+Stack trace:
+#0 /home/tsckeu/public_html/examPortal/forms.php(532): PDO->prepare('')
+#1 {main}
+  thrown in /home/tsckeu/public_html/examPortal/forms.php on line 532
+[14-Mar-2025 11:18:55 UTC] PHP Warning:  Undefined variable $userId in /home/tsckeu/public_html/examPortal/forms.php on line 541
+[14-Mar-2025 11:18:55 UTC] PHP Warning:  Undefined variable $exam in /home/tsckeu/public_html/examPortal/forms.php on line 544
+[14-Mar-2025 11:18:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/examPortal/forms.php on line 544
+[14-Mar-2025 11:18:55 UTC] PHP Warning:  Undefined array key "trajanje" in /home/tsckeu/public_html/examPortal/forms.php on line 547
+[14-Mar-2025 11:20:06 UTC] PHP Warning:  Undefined variable $userId in /home/tsckeu/public_html/examPortal/forms.php on line 541
+[14-Mar-2025 11:21:02 UTC] PHP Warning:  Undefined variable $userId in /home/tsckeu/public_html/examPortal/forms.php on line 541
+[14-Mar-2025 11:21:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/tsckeu/public_html/examPortal/forms.php:545
+Stack trace:
+#0 /home/tsckeu/public_html/examPortal/forms.php(545): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/tsckeu/public_html/examPortal/forms.php on line 545
+[14-Mar-2025 11:22:25 UTC] PHP Warning:  Undefined variable $examHistory in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:22:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:23:03 UTC] PHP Warning:  Undefined variable $examHistory in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:23:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:23:03 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:26:05 UTC] PHP Warning:  Undefined variable $examHistory in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:26:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:26:05 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:26:46 UTC] PHP Warning:  Undefined variable $examHistory in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:26:46 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:26:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:27:33 UTC] PHP Warning:  Undefined variable $examHistory in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:27:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tsckeu/public_html/examPortal/forms.php on line 548
+[14-Mar-2025 11:27:33 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tsckeu/public_html/examPortal/forms.php on line 548

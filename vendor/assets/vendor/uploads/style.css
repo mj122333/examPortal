@@ -1,0 +1,631 @@
+/* Reset za sve elemente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Ili neki drugi font */
+}
+
+/* Glavna boja pozadine (tamna siva) */
+body {
+    background: #222222; /* Tamno siva pozadina */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><text x="30" y="40" font-family="serif" font-size="20" fill="rgba(255,215,0,0.03)">$</text><text x="60" y="70" font-family="serif" font-size="20" fill="rgba(30,144,255,0.03)">$</text></svg>');
+}
+
+/* Mafija glow helper klasa */
+.mafija-glow {
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.9),
+                 0 0 20px rgba(255, 215, 0, 0.7),
+                 0 0 30px rgba(255, 215, 0, 0.5);
+}
+
+/* Container za kviz */
+.quiz-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px;
+    padding: 30px;
+    background: linear-gradient(145deg, #333333, #1a1a1a); /* Sivi gradijent */
+    border: 2px solid #ffd700; /* Zlatno žuta granica */
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.2), 0 0 60px rgba(255, 215, 0, 0.1);
+    border-radius: 0; /* Oštre ravne linije za mafija stil */
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.quiz-container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"><path d="M20,20 L180,20 L180,180 L20,180 Z" stroke="rgba(30,144,255,0.1)" fill="none" stroke-width="2" stroke-dasharray="10,5"/></svg>');
+    pointer-events: none;
+    opacity: 0.2;
+}
+
+/* Broj pitanja */
+#question-number {
+    color: #ffd700; /* Zlatno žuta */
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 15px;
+    text-shadow: 0 0 5px #ffd700;
+    border-bottom: 2px solid #1e90ff; /* Plava linija */
+    padding-bottom: 10px;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+}
+
+/* Kontejner za pitanje i hint */
+.question-hint-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+/* Box za pitanje */
+.question-box {
+    background-color: #2a2a2a;
+    padding: 30px;
+    border-radius: 0;
+    margin-right: 20px;
+    flex: 3;
+    border-left: 4px solid #ffd700; /* Zlatna lijeva granica */
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.question-box h2 {
+    font-size: 2rem;
+    color: #1e90ff; /* Plava boja teksta */
+    text-shadow: 0 0 8px rgba(30, 144, 255, 0.5);
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Box za hint */
+.hint-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 0;
+}
+
+#hint-btn {
+    background: #1e90ff; /* Plava */
+    color: #fff;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    transition: 0.3s ease;
+    box-shadow: 0 0 5px #1e90ff, 0 0 10px #1e90ff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#hint-btn:hover {
+    background: #0066cc;
+    box-shadow: 0 0 10px #1e90ff, 0 0 20px #1e90ff;
+}
+
+#hint {
+    font-style: italic;
+    color: #ffd700; /* Zlatna boja za hint */
+    display: none;
+    font-size: 1.1rem;
+    margin-top: 5px;
+    background-color: rgba(42, 42, 42, 0.8);
+    padding: 15px;
+    border-radius: 0;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+    border-left: 2px solid #ffd700;
+}
+
+/* Polje za odgovore */
+.answers-box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2x2 raspored */
+    gap: 15px; 
+    min-height: 250px; 
+    margin-top: 20px;
+}
+
+.answer-btn {
+    background-color: #2a2a2a;
+    color: #fff;
+    border: 2px solid #1e90ff; /* Plava granica */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+    position: relative;
+    box-shadow: inset 0 0 8px rgba(30, 144, 255, 0.2);
+    padding: 15px;
+    border-radius: 0;
+    font-family: 'Georgia', serif;
+}
+
+/* Efekat prelaska mišem */
+.answer-btn:hover {
+    background-color: #333333;
+    color: #ffd700; /* Zlatna boja teksta na hover */
+    box-shadow: inset 0 0 15px rgba(255, 215, 0, 0.3);
+    border-color: #ffd700;
+}
+
+/* Dugme za "Next" */
+#next-button {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    align-self: center; /* Centriraj dugme */
+    box-shadow: 0 0 5px #1e90ff, 0 0 10px #1e90ff;
+    transition: 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#next-button:hover {
+    background-color: #ffd700; /* Žuta boja na hover */
+    box-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700;
+    color: #222;
+}
+
+#next-button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* Prikaz trenutnog skora */
+#score {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-align: center;
+    color: #ffd700; /* Zlatna boja */
+    text-shadow: 0 0 5px #ffd700;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-top: 2px solid #1e90ff;
+    padding-top: 15px;
+}
+
+/* Responsive - ekran ispod 768px */
+@media (max-width: 768px) {
+    .quiz-container {
+        width: 95%;
+        padding: 20px;
+    }
+    .question-hint-container {
+        flex-direction: column;
+    }
+    .question-box {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .answers-box {
+        grid-template-columns: 1fr; /* Pitanja idu jedno ispod drugog */
+    }
+    .answer-btn {
+        width: 100%;
+    }
+}
+
+/* Indikacija tačnog/netečnog */
+.correct {
+    background-color: #ffd700 !important; /* Žuta za točan */
+    color: #222 !important;
+    box-shadow: 0 0 15px #ffd700;
+}
+
+.incorrect {
+    background-color: #666666 !important; /* Siva za netočan */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+}
+
+/* Login container */
+.login-container {
+    width: 400px;
+    padding: 30px;
+    background: linear-gradient(145deg, #333333, #1a1a1a);
+    border: 2px solid #ffd700;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.2), 0 0 60px rgba(255, 215, 0, 0.1);
+    border-radius: 0;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.login-container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"><path d="M20,20 L180,20 L180,180 L20,180 Z" stroke="rgba(30,144,255,0.1)" fill="none" stroke-width="2" stroke-dasharray="10,5"/></svg>');
+    pointer-events: none;
+    opacity: 0.2;
+}
+
+/* Naslov za login */
+.login-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffd700;
+    text-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Login form */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.1rem;
+    color: #1e90ff;
+    margin-bottom: 5px;
+    text-shadow: 0 0 3px rgba(30, 144, 255, 0.5);
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    background-color: #2a2a2a;
+    color: #fff;
+    font-size: 1.1rem;
+    border-left: 2px solid #1e90ff; /* Plava lijeva granica */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="password"]:focus {
+    border-left: 3px solid #ffd700; /* Žuta granica na fokusu */
+    outline: none;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Dugme za login */
+button[type="submit"] {
+    background-color: #1e90ff; /* Plava */
+    color: #fff;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 100%;
+    margin-top: 10px;
+    transition: 0.3s ease;
+    box-shadow: 0 0 5px #1e90ff, 0 0 10px #1e90ff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffd700; /* Žuta na hover */
+    box-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700;
+    color: #222;
+}
+
+/* Poruka pri loginu */
+#login-message {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #ffd700; /* Žuta */
+}
+
+#login-message.error {
+    color: #999; /* Srebrna siva za greške */
+    border-left: 3px solid #999;
+    padding-left: 10px;
+}
+
+/* Stil za glavni kontejner */
+.welcome-container {
+    background: linear-gradient(145deg, #111, #000);
+    border: 2px solid #e400ff;  /* Neon pink obrub */
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(228, 0, 255, 0.2), 
+                0 0 60px rgba(228, 0, 255, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    padding: 40px 20px;
+}
+
+/* Naslov */
+.welcome-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #40ffe5; /* Neon cyan */
+    text-shadow: 0 0 8px #40ffe5, 0 0 15px #40ffe5;
+}
+
+/* Podnaslov ili običan tekst */
+.welcome-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+/* Gumb za pokretanje testa */
+.welcome-container button {
+    background: #e400ff; 
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 0 10px #e400ff, 0 0 20px #e400ff;
+}
+
+.welcome-container button:hover {
+    background: #ae00bd;
+    box-shadow: 0 0 20px #e400ff, 0 0 40px #e400ff;
+}
+
+/* Možeš dodati i medija upite za manje ekrane ako želiš */
+@media (max-width: 600px) {
+    .welcome-container {
+        padding: 30px 10px;
+    }
+    .welcome-container h1 {
+        font-size: 2rem;
+    }
+    .welcome-container p {
+        font-size: 1rem;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000; /* Deep black background */
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main container for the welcome page */
+.welcome-container {
+    text-align: center;
+    background: linear-gradient(145deg, #111, #050505);
+    border: 2px solid #ff00e2; /* Vibrant pink border */
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(255, 0, 226, 0.2),
+                0 0 60px rgba(255, 0, 226, 0.1);
+    width: 90%;
+    max-width: 800px;
+    padding: 60px 30px; /* A bit more space for a dramatic feel */
+}
+
+/* Big neon heading */
+.welcome-heading {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #00ffe5; /* Vibrant neon aqua */
+    text-shadow: 0 0 8px #00ffe5, 
+                 0 0 20px #00ffe5;
+    letter-spacing: 2px;
+}
+
+/* Optional subtext under the heading */
+.welcome-subtext {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #ddd;
+}
+
+/* The big, vibrant start button */
+.big-start-btn {
+    font-size: 1.5rem; /* Larger text */
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #ff00e2; /* Vibrant pink */
+    color: #fff;
+    transition: 0.3s;
+    box-shadow: 0 0 15px #ff00e2,
+                0 0 30px #ff00e2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.big-start-btn:hover {
+    background: #c000ac;
+    box-shadow: 0 0 30px #ff00e2,
+                0 0 60px #ff00e2;
+    transform: scale(1.05);
+}
+
+/* Responsive: Smaller screens */
+@media (max-width: 600px) {
+    .welcome-container {
+        padding: 40px 20px;
+    }
+    .welcome-heading {
+        font-size: 2.2rem;
+        margin-bottom: 15px;
+    }
+    .welcome-subtext {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+    .big-start-btn {
+        font-size: 1.2rem;
+        padding: 15px 30px;
+    }
+}
+
+.pocetna-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #111;
+    border: 2px solid #ff00ff;
+    border-radius: 12px;
+    padding: 30px;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(255,0,255,0.2);
+    text-align: center;
+  }
+  
+  /* Naslov */
+  .pocetna-container h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #40ffe5;
+    text-shadow: 0 0 10px #40ffe5;
+  }
+  
+  /* Uputni tekst */
+  .pocetna-container p {
+    margin-bottom: 20px;
+    color: #ccc;
+  }
+  
+  /* Tablica s pitanjima */
+  .questions-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .questions-table thead tr {
+    background-color: #222;
+    color: #ff00ff;
+  }
+  
+  .questions-table th,
+  .questions-table td {
+    padding: 12px 15px;
+    border: 1px solid #333;
+  }
+  
+  /* Gumb */
+  .big-start-btn {
+    background-color: #ff00ff;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+  }
+  
+  .big-start-btn:hover {
+    background-color: #d100d1;
+    box-shadow: 0 0 20px #ff00ff, 0 0 40px #ff00ff;
+    transform: scale(1.05);
+  }
+  /* Stilizacija tipke za dodavanje slike */
+.upload-btn {
+    background-color: #ff00ff;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    text-align: center;
+    display: inline-block;
+    transition: 0.3s;
+    box-shadow: 0 0 8px #ff00ff;
+}
+
+.upload-btn:hover {
+    background-color: #d100d1;
+    box-shadow: 0 0 12px #ff00ff;
+}
+
+.image-name {
+    font-size: 1.2rem;
+    color: #40ffe5;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0 0 5px #40ffe5;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.image-preview-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.image-preview-container img {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.7);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-preview-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Stilizacija za formu */
+form {
+    margin-top: 20px;
+}
+
+
+
